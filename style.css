@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+.menu {
+ background-color: black;
+ display: flex;
+ gap: 150px;
+ height: 120px;
+}
+.Logo {
+    border-right: 2px solid red;
+    padding-left: 30px;
+}
+img {
+    width: 30%;
+    display: block;
+}
+.LeProduit {
+    border: 2px solid white;
+}
+.titre {
+    font-family: 'Nabla', cursive;
+}
+h5 {
+    margin-top: 40px;
+    font-family: 'Nabla', cursive;
+}
+.prod {
+    background-color: white;
+    display: flex;
+}
+
+.img1 {
+    border-right: 2px solid black;
+    width: 50%;
+}
+.lancement {
+    display: flex;
+    margin-left: 5px;
+}
+.N {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img2{
+    border-left: 2px solid black;
+    margin-left: auto;
+    width: 50%;
+}
+
+.descrip{
+    margin-top: 120px;
+    background-color: white;
+    border-top: 4px solid black;
+    margin-bottom: 200px;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.Ftech {
+    margin-top: 120px;
+    background-color: grey;
+    margin-bottom: 250px;
+    height: 450px;
+}
+li {
+    margin-left: 80px;
+    font-size: 35px;
+    font-family: 'Chakra Petch', sans-serif; 
+}
+.achat {
+    margin-left: auto;
+    margin-top: 30px;
+}
+.comm {
+    display: flex;
+}
+.ach {
+    margin-right: 400px;
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
+}
+.btn {
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+}
+.nightMode {
+    background-color: black
+  }
+.nightMode .prod{
+    background-color: black
+  }
+  .nightMode .descrip{
+    background-color: black
+  }
+  
+.nightMode p {
+    color: gray;
+  }
+.nightMode h2 {
+    color: gray;
+  }
